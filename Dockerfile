@@ -73,7 +73,7 @@ WORKDIR /
 
 # jupyter
 RUN pip install ipython ipykernel 
-RUN pip install numpy torch torchvision
+RUN pip install numpy torch torchvision torchsummary
 
 # ===== END YOLO 11 =====
 
